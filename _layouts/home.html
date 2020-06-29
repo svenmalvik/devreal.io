@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 {% include head.html %}
@@ -21,7 +17,7 @@
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    <li><a href="#one" class="button next scrolly">Reserve Seat</a></li>
                 </ul>
             </div>
         </div>
@@ -30,21 +26,153 @@
     <!-- Main -->
     <div id="main">
 
-        <!-- One -->
-        {% include tiles.html %}
 
+        
         <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
+        <section id="two" class="spotlights">
+
+            <section>
+                <a href="generic.html" class="image">
+                    <img src="{% link assets/images/msstudio2.jpg %}" alt="" data-position="center center" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Instructor-led </h3>
+                        </header>
+                        <p>
+                            Traditional instructor-led workshops costs many thousands of dollars. 
+                            Compared to pre-recorded workshops that we buy online for little money, 
+                            we expect greater value. That's not always the fact, but the reality.
+                            <br><br>
+                            We took the best of both worlds, and combined them in one workshop. 
+                            The result is an instructor-led workshop for 50€. 
+                            You can still ask questions, interact with each other, 
+                            or just listen to the instructor.
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <a href="generic.html" class="image">
+                    <img src="{% link assets/images/smallgroup.jpg %}" alt="" data-position="top center" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Small Groups</h3>
+                        </header>
+                        <p>For many people, it's more fun to learn in small groups. It's also easier to ask questions. 
+                            The same is true for the instructor. The instructor will learn about your challenges in much more detail, 
+                            and can give you better answers. This workshop has a limit of 5 participants.
+                            In case you are team of more than 5 people drop me a message.
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <a href="generic.html" class="image">
+                    <img src="{% link assets/images/msbuild1.jpg %}" alt="" data-position="25% 25%" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Changing Focus Each Week</h3>
+                        </header>
+                        <p>
+                            Azure API Management has many great features. 
+                            Each week we will focus on one feature in more detail than on others. 
+                            We will always cover the basics, so everyone in this workshop will be on the same page. 
+                            In one workshop we might focus on Logging, in the next workshop we will investigate the Developer Portal. 
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <a href="generic.html" class="image">
+                    <img src="{% link assets/images/group.jpg %}" alt="" data-position="25% 25%" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Agenda</h3>
+                        </header>
+                        <p>
+                            Azure API Management is used as the front door towards your services that can run on 
+                            Azure Kubernetes Service, Azure Web Services and other places. This workshop will help 
+                            you to understand Azure API Management, so you can deploy your APIs and secure your services.
+                            <ul>
+                                <li>1</li>
+                            </ul>
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <a href="generic.html" class="image">
+                    <img src="{% link assets/images/techx.jpg %}" alt="" data-position="25% 25%" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Hi, I'm Sven</h3>
+                        </header>
+                        <p>
+                            I've worked with Azure API Management in production
+                            for the last two years at Vipps AS. Vipps is the number one payments service in Norway, and also the 
+                            most successful digital wallet in the world as almost the entire population of Norway is using our services. 
+                            The way we interact with Azure API Management has impressed Microsoft  
+                            so much that they invited us to Seattle and give a talk at Microsoft Build 2019.
+                            What a great experience.
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Next Workshop</h3>
+                        </header>
+                        <p style="font-size: 1.7em;">
+                            8. July 2020<br>
+                            15:00 CEST (Oslo/Berlin)<br>
+                        </p>
+                        <header class="major">
+                            <h3>Price</h3>
+                        </header>
+                        <p style="font-size: 1.7em;">
+                            50€/student
+                        </p>
+                        <ul class="actions">
+                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
         </section>
+            
 
     </div>
 
@@ -53,3 +181,6 @@
 </body>
 
 </html>
+
+
+

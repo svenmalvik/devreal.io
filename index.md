@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Online-Workshop: Azure API Management'
 description: null
-image: null
+image: assets/images/pic07.jpg
 author: null
 show_tile: false
 ---
