@@ -17,7 +17,7 @@
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Reserve Seat</a></li>
+                    <li><a class="button next" id="order1">Reserve Seat</a><div id="error-message1"></div></li>
                 </ul>
             </div>
         </div>
@@ -51,7 +51,7 @@
                             or just listen to the instructor.
                         </p>
                         <ul class="actions">
-                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                            <li><a class="button next" id="order2">Reserve Seat</a><div id="error-message2"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                             In case you are team of more than 5 people drop me a message.
                         </p>
                         <ul class="actions">
-                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                            <li><a class="button next" id="order3">Reserve Seat</a><div id="error-message3"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                             In one workshop we might focus on Logging, in the next workshop we will investigate the Developer Portal. 
                         </p>
                         <ul class="actions">
-                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                            <li><a class="button next" id="order4">Reserve Seat</a><div id="error-message4"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             </ul>
                         </p>
                         <ul class="actions">
-                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                            <li><a class="button next" id="order5">Reserve Seat</a><div id="error-message5"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                             What a great experience. I will share details in this workshop.
                         </p>
                         <ul class="actions">
-                            <li><a href="#one" class="button next">Reserve Seat</a></li>
+                            <li><a class="button next" id="order6">Reserve Seat</a><div id="error-message6"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -175,13 +175,58 @@
             </div>
         </div>
         <ul class="actions">
-            <li><a href="#one" class="button next">Reserve Seat</a></li>
+            <li><a class="button next" id="order7">Reserve Seat</a><div id="error-message7"></div></li>
         </ul>
+
         </section>
     </div>
 
     {% include footer.html %}
 
+    <script>
+        // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
+        var PUBLISHABLE_KEY = "pk_test_51GzhkJBdwAYDhgLkn9rkfBbxzEiyb1UrfMo9gPvUWcEkmDR2OOjcTmiUlzvQ6xg8qrWeiflQehBxkRlzF7AbkdeN00miAAkg7w";
+        // Replace with the domain you want your users to be redirected back to after payment
+        var DOMAIN = window.location.origin;
+        // Replace with a Price for your own product (created either in the Stripe Dashboard or with the API)
+        // You can also supply a SKU or Plan ID for 
+        var PRICE_ID = "price_1GznsZBdwAYDhgLkkZpUndJt";
+  
+        if (PUBLISHABLE_KEY === "pk_test_51GzhkJBdwAYDhgLkn9rkfBbxzEiyb1UrfMo9gPvUWcEkmDR2OOjcTmiUlzvQ6xg8qrWeiflQehBxkRlzF7AbkdeN00miAAkg7w") {
+          console.log(
+            "Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys"
+          );
+        }
+  
+        if (PRICE_ID === "price_1GznsZBdwAYDhgLkkZpUndJt") {
+          console.log(
+            "Replace the hardcoded SKU ID with your own SKU: https://stripe.com/docs/api/skus"
+          );
+        }
+  
+        var stripe = Stripe(PUBLISHABLE_KEY);
+  
+        for (i = 1; i < 7; i++) {
+            var handleResult = function(result) {
+            if (result.error) {
+                var displayError = document.getElementById("error-message" + i);
+                displayError.textContent = result.error.message;
+            }
+            };
+            var order = document.getElementById("order" + i);
+            order.addEventListener("click", function() {
+            stripe
+                .redirectToCheckout({
+                mode: 'payment',
+                lineItems: [{ price: PRICE_ID, quantity: 1 }],
+                successUrl:
+                    DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
+                cancelUrl: DOMAIN + "/canceled.html"
+                })
+                .then(handleResult);
+            });
+        }
+      </script>
 </body>
 
 </html>
