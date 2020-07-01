@@ -184,29 +184,13 @@
     {% include footer.html %}
 
     <script>
-        // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
         var PUBLISHABLE_KEY = "pk_test_51GzhkJBdwAYDhgLkn9rkfBbxzEiyb1UrfMo9gPvUWcEkmDR2OOjcTmiUlzvQ6xg8qrWeiflQehBxkRlzF7AbkdeN00miAAkg7w";
-        // Replace with the domain you want your users to be redirected back to after payment
         var DOMAIN = window.location.origin;
-        // Replace with a Price for your own product (created either in the Stripe Dashboard or with the API)
-        // You can also supply a SKU or Plan ID for 
         var PRICE_ID = "price_1GznsZBdwAYDhgLkkZpUndJt";
-  
-        if (PUBLISHABLE_KEY === "pk_test_51GzhkJBdwAYDhgLkn9rkfBbxzEiyb1UrfMo9gPvUWcEkmDR2OOjcTmiUlzvQ6xg8qrWeiflQehBxkRlzF7AbkdeN00miAAkg7w") {
-          console.log(
-            "Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys"
-          );
-        }
-  
-        if (PRICE_ID === "price_1GznsZBdwAYDhgLkkZpUndJt") {
-          console.log(
-            "Replace the hardcoded SKU ID with your own SKU: https://stripe.com/docs/api/skus"
-          );
-        }
   
         var stripe = Stripe(PUBLISHABLE_KEY);
   
-        for (i = 1; i < 7; i++) {
+        for (i = 1; i <= 7; i++) {
             var handleResult = function(result) {
             if (result.error) {
                 var displayError = document.getElementById("error-message" + i);
