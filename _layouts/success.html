@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+{% include head.html %}
+
+{% include header.html %}
+
+<body>
+
+    <div style="margin: 20px;">
+        <div>
+            <h1>Your test payment was successful</h1>
+            <h2>Checkout Session ID: <span id="session"></span></h2>
+        </div>
+    </div>
+    <script>
+      var PUBLISHABLE_KEY = "pk_test_51GzhkJBdwAYDhgLkn9rkfBbxzEiyb1UrfMo9gPvUWcEkmDR2OOjcTmiUlzvQ6xg8qrWeiflQehBxkRlzF7AbkdeN00miAAkg7w";
+      var stripe = Stripe(PUBLISHABLE_KEY);
+      var urlParams = new URLSearchParams(window.location.search);
+
+      if (urlParams.has("session_id")) {
+        document.getElementById("session").textContent = urlParams.get(
+          "session_id"
+        );
+      }
+    </script>
+  </body>
+
+</html>
+
+
+
