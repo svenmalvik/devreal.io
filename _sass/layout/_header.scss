@@ -23,7 +23,7 @@
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
-		text-transform: uppercase;
+		//text-transform: uppercase;
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
@@ -217,7 +217,7 @@
 		@include breakpoint(xsmall) {
 			.logo {
 				span {
-					display: none;
+					//display: none;
 				}
 			}
 
