@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Online-Workshop: Azure API Management'
+landing-title: 'AzDev Conference'
 description: null
 image: assets/images/pic07.jpg
 author: null
