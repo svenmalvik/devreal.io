@@ -11,7 +11,7 @@ city: Fjerdingby
 state: 
 zip_code: 2008
 country: Norway
-phone: (47) 948 225 79
+phone: (+47) 948 225 79
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
