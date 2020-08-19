@@ -1,8 +1,8 @@
 # site settings
-title: AzDev
-subtitle: Conference
+title: Azure
+subtitle: API Managament
 email: sven@malvik.de
-description: "Infrastructure as Code"
+description: "Workshop"
 baseurl: ""
 url: 
 author: Sven Malvik
