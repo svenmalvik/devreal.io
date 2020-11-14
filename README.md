@@ -1,5 +1,5 @@
 
-# Azure API Managemet Workshop
+# Azure API Management Workshop
 
 * **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
 * Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.

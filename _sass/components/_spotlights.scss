@@ -62,7 +62,7 @@
 
 			&:nth-child(2n) {
 				@include vendor('flex-direction', 'row-reverse');
-				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
+				background-color: desaturate(lighten(_palette(bg-alt), 10), 2);
 
 				> .content {
 					@include vendor('align-items', 'flex-end');
@@ -72,24 +72,16 @@
 
 		@include breakpoint(xlarge) {
 			> section {
-				> .image {
-					width: 40%;
-				}
-
 				> .content {
-					width: 60%;
+					width: 100%;
 				}
 			}
 		}
 
 		@include breakpoint(large) {
 			> section {
-				> .image {
-					width: 45%;
-				}
-
 				> .content {
-					width: 55%;
+					width: 100%;
 				}
 			}
 		}

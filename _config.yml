@@ -1,8 +1,9 @@
 # site settings
-title: Azure
-subtitle: API Managament
+title: DEVREAL
+header_title: DEVREAL Tech Discussions
+subtitle: Tech Discussions
 email: sven@malvik.de
-description: "Workshop"
+description: "How are companies like Vipps, SATS, Orkla, and Statsbygg using Azure API Management? What experiences do they have, and what do they think about the service? "
 baseurl: ""
 url: 
 author: Sven Malvik
@@ -16,6 +17,7 @@ phone: (+47) 948 225 79
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
+reserve_btn: "Reserve Free Seat"
 
 # social settings
 500px_url:

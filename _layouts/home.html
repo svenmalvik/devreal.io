@@ -15,9 +15,13 @@
                 <h1 style="line-height: 1.2em;">{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase; font-size: 1.2em;">{{ site.description }}</p>
+                <p style="font-size: 1.2em; font-weight: 900;">Azure API Management Norway Event</p>
+                <p>10. December at 18:00 CET (Oslo)</p>
+            </div>
+            <div class="content">
+                <p style="font-size: 1.2em;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a class="button next" id="order1">Reserve Seat</a><div id="error-message1"></div></li>
+                    <li><a class="button next" id="order1">{{ site.reserve_btn }}</a><div id="error-message1"></div></li>
                 </ul>
             </div>
         </div>
@@ -26,125 +30,41 @@
     <!-- Main -->
     <div id="main">
 
-
-        
-        <!-- Two -->
         <section id="two" class="spotlights">
 
             <section>
-                <a class="image">
-                    <img src="{% link assets/images/msstudio2.jpg %}" alt="" data-position="center center" />
-                </a>
                 <div class="content">
                     <div class="inner">
                         <header class="major">
-                            <h3>Instructor-led </h3>
+                            <h2>Massa libero</h2>
                         </header>
-                        <p>
-                            Traditional instructor-led workshops costs many thousands of dollars. 
-                            Compared to pre-recorded workshops that we buy online for little money, 
-                            we expect greater value. That's not always the fact, but the reality.
-                            <br><br>
-                            We took the best of both worlds, and combined them in one workshop. 
-                            The result is an instructor-led workshop for 50€. 
-                            You can still ask questions, interact with each other, 
-                            or just listen to the instructor.
-                        </p>
+                        <p>{{ content }}</p>
                         <ul class="actions">
-                            <li><a class="button next" id="order2">Reserve Seat</a><div id="error-message2"></div></li>
+                            <li><a class="button next" id="order6">{{ site.reserve_btn }}</a><div id="error-message6"></div></li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <section>
-                <a class="image">
-                    <img src="{% link assets/images/smallgroup.jpg %}" alt="" data-position="top center" />
-                </a>
                 <div class="content">
                     <div class="inner">
                         <header class="major">
-                            <h3>Small Groups</h3>
-                        </header>
-                        <p>For many people, it's more fun to learn in small groups. It's also easier to ask questions. 
-                            The same is true for the instructor. The instructor will learn about your challenges in much more detail, 
-                            and can give you better answers. This workshop has a limit of 5 participants.
-                            In case you are team of more than 5 people drop me a message.
-                        </p>
-                        <ul class="actions">
-                            <li><a class="button next" id="order3">Reserve Seat</a><div id="error-message3"></div></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <a class="image">
-                    <img src="{% link assets/images/msbuild1.jpg %}" alt="" data-position="25% 25%" />
-                </a>
-                <div class="content">
-                    <div class="inner">
-                        <header class="major">
-                            <h3>Changing Focus Each Week</h3>
-                        </header>
-                        <p>
-                            Azure API Management has many great features. 
-                            Each week we will focus on one feature in more detail than on others. 
-                            We will always cover the basics, so everyone in this workshop will be on the same page. 
-                            In one workshop we might focus on Logging, in the next workshop we will investigate the Developer Portal. 
-                        </p>
-                        <ul class="actions">
-                            <li><a class="button next" id="order4">Reserve Seat</a><div id="error-message4"></div></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <a class="image">
-                    <img src="{% link assets/images/group.jpg %}" alt="" data-position="25% 25%"/>
-                </a>
-                <div class="content">
-                    <div class="inner">
-                        <header class="major">
-                            <h3>Agenda</h3>
-                        </header>
-                        <p>
-                            Azure API Management is used as the front door towards your services that can run on 
-                            Azure Kubernetes Service, Azure Web Services and other places. This workshop will help 
-                            you to understand Azure API Management, so you can deploy your APIs and secure your services.
-                            <ul>
-                                <li>Core concepts</li>
-                                <li>Policies</li>
-                                <li>Logging to Azure Event Hub</li>
-                            </ul>
-                        </p>
-                        <ul class="actions">
-                            <li><a class="button next" id="order5">Reserve Seat</a><div id="error-message5"></div></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <a class="image">
-                    <img src="{% link assets/images/covid19.jpg %}" alt="" data-position="25% 25%" />
-                </a>
-                <div class="content">
-                    <div class="inner">
-                        <header class="major">
-                            <h3>Hi, I'm Sven</h3>
+                            <h2>I'M SVEN, YOUR HOST</h2>
                         </header>
                         <p>
                             I've worked with Azure API Management in production
                             for the last two years at Vipps AS. Vipps is the number one payments service in Norway, and also the 
-                            most successful digital wallet in the world as almost the entire population of Norway is using the service. 
-                            <br>How our developers interact with Azure API Management has impressed Microsoft  
-                            so much that they invited us to Seattle and give a talk at Microsoft Build 2019.
-                            What a great experience. I will share details in this workshop.
+                            most successful digital wallet in the world as almost the entire population of Norway is using this service. 
+                        </p>
+                        <p>
+                            How our developers interact with Azure API Management has impressed Microsoft, so  
+                            they invited me to Seattle and give a talk at Microsoft Build 2019.
+                            What a great experience. Since then, I've been so lucky to talk about Azure API Management at many large conferences.
+                            I truly belief in this service, and I'd like to share with you and other users our experiences.
                         </p>
                         <ul class="actions">
-                            <li><a class="button next" id="order6">Reserve Seat</a><div id="error-message6"></div></li>
+                            <li><a class="button next" id="order6">{{ site.reserve_btn }}</a><div id="error-message6"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -156,26 +76,26 @@
                 
             <div class="inner">
                 <header class="major">
-                    <h1>Next Workshop</h1>
+                    <h1>Next <font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode</h1>
                 </header>
         
         <!-- Content -->
         <div class="row">
             <div class="4u 12u$(medium)">
                 <h3>Date</h3>
-                <p>8. July 2020</p>
+                <p>10. December 2020</p>
             </div>
             <div class="4u 12u$(medium)">
                 <h3>Time</h3>
-                <p>15:00 CEST (Oslo/Berlin)</p>
+                <p>18:00 CET (Oslo/Berlin)</p>
             </div>
             <div class="4u$ 12u$(medium)">
                 <h3>Price</h3>
-                <p>50€/student</p>
+                <p>Free</p>
             </div>
         </div>
         <ul class="actions">
-            <li><a class="button next" id="order7">Reserve Seat</a><div id="error-message7"></div></li>
+            <li><a class="button next" id="order7">{{ site.reserve_btn }}</a><div id="error-message7"></div></li>
         </ul>
 
         </section>
