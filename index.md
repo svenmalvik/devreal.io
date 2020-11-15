@@ -9,4 +9,10 @@ author: null
 show_tile: false
 ---
 
-My guests in the first episode are Andreas Dreyer Hysing (Vipps), Joachim Løvf (SATS), Ling Shi (Statsbygg), Knut Svendsen (Orkla), and Miao Jiang (Microsoft). 
+This episodes guests are all from well-known Norwegian companies that uses Azure API Management. What I want to ask them is how they use the service, and what their use cases are. Most interesting though is to talk about their experiences and what do they want to achieve with API Management.
+
+- [Andreas Dreyer Hysing (Vipps)](https://www.linkedin.com/in/andreas-dreyer-hysing-063b06110/)
+- [Joachim Løvf (SATS)](https://www.linkedin.com/in/joachimlovf/)
+- [Ling Shi (Statsbygg)](https://www.linkedin.com/in/ling-shi-050175a/)
+- [Knut Svendsen (Orkla)](https://www.linkedin.com/in/knutsvendsen/)
+- [Miao Jiang (Microsoft)](https://www.linkedin.com/in/miaojiang/)

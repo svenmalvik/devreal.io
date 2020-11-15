@@ -16,12 +16,12 @@
             </header>
             <div class="content">
                 <p style="font-size: 1.2em; font-weight: 900;">{{ page.landing-subtitle }}</p>
-                <p>10. December at 18:00 CET (Oslo)</p>
+                <p>10. December at 18:00 - 19:30 CET (Oslo)</p>
             </div>
             <div class="content">
                 <p style="font-size: 1.2em;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a class="button next" id="order1">{{ site.reserve_btn }}</a><div id="error-message1"></div></li>
+                    <li><a class="button next" id="order1" href="{{site.form-link}}">{{ site.reserve_btn }}</a><div id="error-message1"></div></li>
                 </ul>
             </div>
         </div>
@@ -40,7 +40,7 @@
                         </header>
                         <p>{{ content }}</p>
                         <ul class="actions">
-                            <li><a class="button next" id="order6">{{ site.reserve_btn }}</a><div id="error-message6"></div></li>
+                            <li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn }}</a><div id="error-message6"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -54,17 +54,12 @@
                         </header>
                         <p>
                             I've worked with Azure API Management in production
-                            for the last two years at Vipps AS. Vipps is the number one payments service in Norway, and also the 
-                            most successful digital wallet in the world as almost the entire population of Norway is using this service. 
-                        </p>
-                        <p>
-                            How our developers interact with Azure API Management has impressed Microsoft, so  
-                            they invited me to Seattle and give a talk at Microsoft Build 2019.
-                            What a great experience. Since then, I've been so lucky to talk about Azure API Management at many large conferences.
-                            I truly belief in this service, and I'd like to share with you and other users our experiences.
+                            for the last two years at Vipps. Vipps is the number one payments service in Norway, and one of the 
+                            most successful digital wallet in the world as almost the entire population of Norway is using Vipps. 
+                            More about <a href="https://www.linkedin.com/in/svenmalvik/">me</a>.
                         </p>
                         <ul class="actions">
-                            <li><a class="button next" id="order6">{{ site.reserve_btn }}</a><div id="error-message6"></div></li>
+                            <li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn }}</a><div id="error-message6"></div></li>
                         </ul>
                     </div>
                 </div>
@@ -87,7 +82,7 @@
             </div>
             <div class="4u 12u$(medium)">
                 <h3>Time</h3>
-                <p>18:00 CET (Oslo/Berlin)</p>
+                <p>18:00 - 19:30 CET (Oslo/Berlin)</p>
             </div>
             <div class="4u$ 12u$(medium)">
                 <h3>Price</h3>
@@ -104,9 +99,9 @@
     {% include footer.html %}
 
     <script>
-        var PUBLISHABLE_KEY = "pk_test_51GzhkJBdwAYDhgLkn9rkfBbxzEiyb1UrfMo9gPvUWcEkmDR2OOjcTmiUlzvQ6xg8qrWeiflQehBxkRlzF7AbkdeN00miAAkg7w";
+        var PUBLISHABLE_KEY = "";
         var DOMAIN = window.location.origin;
-        var PRICE_ID = "price_1GznsZBdwAYDhgLkkZpUndJt";
+        var PRICE_ID = "";
 
   
         var stripe = Stripe(PUBLISHABLE_KEY);
@@ -124,8 +119,7 @@
                 .redirectToCheckout({
                 mode: 'payment',
                 lineItems: [{ price: PRICE_ID, quantity: 1 }],
-                successUrl:
-                    DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
+                successUrl: DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
                 cancelUrl: DOMAIN + "/canceled.html"
                 })
                 .then(handleResult);
