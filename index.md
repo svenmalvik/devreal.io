@@ -9,7 +9,7 @@ author: null
 show_tile: false
 ---
 
-This episodes guests are all from well-known Norwegian companies that uses Azure API Management. What I want to ask them is how they use the service, and what their use cases are. Most interesting though is to talk about their experiences and what do they want to achieve with API Management.
+This episodes guests are all from well-known Norwegian companies that uses Azure API Management in production. What I will ask them is how they use the service, and what their use cases are. Most interesting though is to talk about their experiences and what do they want to achieve with API Management.
 
 - [Andreas Dreyer Hysing (Vipps)](https://www.linkedin.com/in/andreas-dreyer-hysing-063b06110/)
 - [Joachim Løvf (SATS)](https://www.linkedin.com/in/joachimlovf/)
