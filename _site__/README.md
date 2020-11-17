@@ -6,4 +6,4 @@
 * Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
 * Set **featured images** in front matter.
 
-`bundle exec jekyll serve -d docs`
+`bundle exec jekyll serve`
