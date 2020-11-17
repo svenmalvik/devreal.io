@@ -7,3 +7,4 @@
 * Set **featured images** in front matter.
 
 `bundle exec jekyll serve -d docs`
+`bundle exec jekyll build && mv _site/* .`
