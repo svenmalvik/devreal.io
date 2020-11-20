@@ -9,7 +9,7 @@ author: null
 show_tile: false
 ---
 
-How are Norwegian companies like Vipps, SATS, Orkla, and Statsbygg using Azure API Management?
+How are Norwegian companies like Vipps, SATS, Orkla, Statsbygg, and DNV GL using Azure API Management?
 
 This event is about real experiences and learnings. I want to know what other developers think about this service, and what questions and answers they might have.
 
@@ -24,3 +24,4 @@ This episodes guests are all from well-known Norwegian companies that uses Azure
 - [Ling Shi (Statsbygg)](https://www.linkedin.com/in/ling-shi-050175a/)
 - [Knut Svendsen (Orkla)](https://www.linkedin.com/in/knutsvendsen/)
 - [Miao Jiang (Microsoft)](https://www.linkedin.com/in/miaojiang/)
+- [Pål Stian Bendiksen](https://www.linkedin.com/in/pbendiksen/)
