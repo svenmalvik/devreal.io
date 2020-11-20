@@ -23,5 +23,5 @@ This episodes guests are all from well-known Norwegian companies that uses Azure
 - [Joachim Løvf (SATS)](https://www.linkedin.com/in/joachimlovf/)
 - [Ling Shi (Statsbygg)](https://www.linkedin.com/in/ling-shi-050175a/)
 - [Knut Svendsen (Orkla)](https://www.linkedin.com/in/knutsvendsen/)
+- [Pål Stian Bendiksen (DNV GL)](https://www.linkedin.com/in/pbendiksen/)
 - [Miao Jiang (Microsoft)](https://www.linkedin.com/in/miaojiang/)
-- [Pål Stian Bendiksen](https://www.linkedin.com/in/pbendiksen/)
