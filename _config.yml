@@ -19,6 +19,8 @@ phone: (+47) 948 225 79
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 reserve_btn: "Reserve Free Seat"
+apimnolink_btn: "Watch Now"
+apimnolink: https://www.youtube.com/watch?v=N2qGQU3GAh4
 
 # social settings
 500px_url:
