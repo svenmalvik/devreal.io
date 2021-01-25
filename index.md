@@ -4,7 +4,7 @@ title: Home
 landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 2'
 landing-subtitle: Diversity & Inclusion
 description: null
-image: https://cdn.svenmalvik.com/images/devreal-di-cover.jpg
+image: https://cdn.svenmalvik.com/images/devreal-di.jpg
 show_tile: false
 ---
 
