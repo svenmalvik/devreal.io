@@ -1,27 +1,27 @@
 ---
 layout: home
 title: Home
-landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Debut'
-landing-subtitle: Azure API Management
+landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 2'
+landing-subtitle: Diversity & Inclusion
 description: null
-image: 
-author: null
+image: https://cdn.svenmalvik.com/images/devreal-di-cover.jpg
 show_tile: false
 ---
 
-How are Norwegian companies like Vipps, SATS, Orkla, Statsbygg, and DNV GL using Azure API Management?
+How are organizations like Vipps, Microsoft, Tata Consultancy Services (TCS) and Aker Solutions establishing a diverse and inclusive workplace? What initiatives are they driving and how can we all work together to create a positive impact?
 
-This event is about real experiences and learnings. I want to know what other developers think about this service, and what questions and answers they might have.
+This event is about real experiences. We want to know why this topic matters so much to employees, students and companies.
 
-This event is split into 3 sections. In the first section the speakers will briefly tell about their experiences with APIM. In the second section we have Miao Jiang from Microsoft who will tell about what they are doing in the product team to help and support us developers. In the third section we’ll have a real tech conversation where we will get a lot of valuable insights.
+This event is split into 2 sections. In the first section the speakers will tell about their experiences. In the second section we’ll have a real conversation where we will get a lot of valuable insights.
 
-Thanks so much to the speakers for participating. It really means a lot to many developers that haven’t used Azure API Management yet. I also want to send a special thanks to Miao Jiang from Microsoft which I had the pleasure to be on stage with at MS Build 2019 where we talked about Azure API Management.
+Thanks so much to the speakers for participating. It really means a lot to many that want to know more about the topic. I also want to send a special thanks to Ellie King who will moderate this event.
 
-This episodes guests are all from well-known Norwegian companies that uses Azure API Management in production. What I will ask them is how they use the service, and what their use cases are. Most interesting though is to talk about their experiences and what do they want to achieve with API Management.
+This episodes guests are from well-known companies. In addition we have a student with us which will tell about what she expects from life.
 
-- [Andreas Dreyer Hysing (Vipps)](https://www.linkedin.com/in/andreas-dreyer-hysing-063b06110/)
-- [Joachim Løvf (SATS)](https://www.linkedin.com/in/joachimlovf/)
-- [Ling Shi (Statsbygg)](https://www.linkedin.com/in/ling-shi-050175a/)
-- [Knut Svendsen (Orkla)](https://www.linkedin.com/in/knutsvendsen/)
-- [Pål Stian Bendiksen (DNV GL)](https://www.linkedin.com/in/pbendiksen/)
-- [Miao Jiang (Microsoft)](https://www.linkedin.com/in/miaojiang/)
+- [Ellie King (Diversity & Inclusion Advocate)](https://www.linkedin.com/in/ellie-king-62842777/)
+- [Alex Warris (Male Engagement Strategist)](https://www.linkedin.com/in/alexwarris/)
+- [Sibin Philip (TCS)](https://www.linkedin.com/in/sibin-philip-8514b3b6/)
+- [Aneesh MN (TCS)](https://www.linkedin.com/in/aneesh-mn-a2877750/)
+- [Sherry List (Microsoft)](https://www.linkedin.com/in/sherrylist/)
+- [Helena Løvdal Bjørbekk (NTNU)](https://www.linkedin.com/in/helena-l%C3%B8vdal-bj%C3%B8rbekk-1a1559134/)
+- [Nada Ahmed (Aker Solutions)](https://www.linkedin.com/in/nada-ahmed-41208611/)
