@@ -4,11 +4,11 @@ title: Home
 landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 2'
 landing-subtitle: Diversity & Inclusion
 description: null
-image: https://cdn.svenmalvik.com/images/devreal-di-cover2.jpg
+image: https://cdn.svenmalvik.com/images/devreal-di-cover3.jpg
 show_tile: false
 ---
 
-How are organizations like Vipps, Microsoft, Tata Consultancy Services (TCS) and Aker Solutions establishing a diverse and inclusive workplace? What initiatives are they driving and how can we all work together to create a positive impact?
+How are organizations like Vipps, Microsoft and Tata Consultancy Services (TCS) establishing a diverse and inclusive workplace? What initiatives are they driving and how can we all work together to create a positive impact?
 
 This event is about real experiences. We want to know why this topic matters so much to employees, students and companies.
 
@@ -24,4 +24,3 @@ This episodes guests are from well-known companies. In addition we have a studen
 - [Aneesh MN (TCS/Vipps)](https://www.linkedin.com/in/aneesh-mn-a2877750/)
 - [Sherry List (Microsoft)](https://www.linkedin.com/in/sherrylist/)
 - [Helena Løvdal Bjørbekk (NTNU)](https://www.linkedin.com/in/helena-l%C3%B8vdal-bj%C3%B8rbekk-1a1559134/)
-- [Nada Ahmed (Aker Solutions)](https://www.linkedin.com/in/nada-ahmed-41208611/)
