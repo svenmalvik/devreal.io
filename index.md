@@ -3,14 +3,12 @@ layout: home
 title: Home
 landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 2'
 landing-subtitle: Diversity & Inclusion
-description: null
+description: Diversity & Inclusion Tech Conversation
 share-img: https://cdn.svenmalvik.com/images/devreal-di-cover4.jpg
 show_tile: true
 ---
 
 How are organizations like Vipps, Microsoft and Tata Consultancy Services (TCS) establishing a diverse and inclusive workplace? What initiatives are they driving and how can we all work together to create a positive impact?
-
-![Diversity & Inclusion Tech Conversation| DEVREAL.io](https://cdn.svenmalvik.com/images/devreal-di-cover4.jpg "Diversity & Inclusion Tech Conversation| DEVREAL.io")*Diversity & Inclusion Tech Conversation| DEVREAL.io*
 
 This event is about real experiences. We want to know why this topic matters so much to employees, students and companies.
 
