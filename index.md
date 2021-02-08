@@ -4,7 +4,7 @@ title: Home
 landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 2'
 landing-subtitle: Diversity & Inclusion
 description: null
-image: https://cdn.svenmalvik.com/images/devreal-di-cover3.jpg
+image: https://cdn.svenmalvik.com/images/devreal-di-cover4.jpg
 show_tile: false
 ---
 
@@ -24,3 +24,4 @@ This episodes guests are from well-known companies. In addition we have a studen
 - [Aneesh MN (TCS/Vipps)](https://www.linkedin.com/in/aneesh-mn-a2877750/)
 - [Sherry List (Microsoft)](https://www.linkedin.com/in/sherrylist/)
 - [Helena Løvdal Bjørbekk (NTNU)](https://www.linkedin.com/in/helena-l%C3%B8vdal-bj%C3%B8rbekk-1a1559134/)
+- [Jonah Andersson (GirlCode Ambassador)](https://www.linkedin.com/in/jonahandersson/)
