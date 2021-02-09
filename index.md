@@ -24,4 +24,4 @@ This episodes guests are from well-known companies. In addition we have a studen
 - [Aneesh MN (TCS/Vipps)](https://www.linkedin.com/in/aneesh-mn-a2877750/)
 - [Sherry List (Microsoft)](https://www.linkedin.com/in/sherrylist/)
 - [Helena Løvdal Bjørbekk (NTNU)](https://www.linkedin.com/in/helena-l%C3%B8vdal-bj%C3%B8rbekk-1a1559134/)
-- [Jonah Andersson (GirlCode Ambassador)](https://www.linkedin.com/in/jonahandersson/)
+- [Jonah Andersson (Forefront Consulting)](https://www.linkedin.com/in/jonahandersson/)
