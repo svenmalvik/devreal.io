@@ -18,10 +18,10 @@
             </header>
             <div class="content">
                 <p style="font-size: 1.2em; font-weight: 900;">{{ page.landing-subtitle }}</p>
-                <p>18 February, 18:00 - 19:30 CET</p>
+                <p>17 March, 18:00 - 19:30 CET</p>
             </div>
             <div class="content">
-                <p style="font-size: 1.2em;">{{ site.description }}</p>
+                <p style="font-size: 1.2em;">{{ page.description }}</p>
 				
                 <ul class="actions">
                             <li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn}}</a><div id="error-message6"></div></li>
@@ -34,32 +34,15 @@
     <!-- Main -->
     <div id="main">
 
-        <section id="one" style="background-color: #3A86FF;">
-            <div class="inner">
-        
-        <div class="row">
-            <div class="6u 12u$(small)">
-                <h3>Previous Episode: Azure API Management at Norway</h3>
-                <p>How are Norwegian companies like Vipps, SATS, Orkla, Statsbygg, and DNV GL using Azure API Management? This episode is about real experiences and learnings. I wanted to know what other developers think about this service, and what questions and answers they might have.</p>
-            </div>
-            <div class="6u$ 12u$(small)">
-                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/N2qGQU3GAh4?color=red&theme=dark" allowfullscreen></iframe>
- 
-            </div>
-        </div>
-        </section>
-
         <section id="two" class="spotlights">
 
             <section>
                 <div class="content">
                     <div class="inner">
                         <header class="major">
-                            <h2>Diversity & Inclusion Tech Conversations</h2>
+                            <h2>{{ page.landing-subtitle }}</h2>
                         </header>
-                   
-                            <img src="{{site.cover-image}}" alt="Diversity & Inclusion Tech Conversations" />
-                      
+                        <img src="{{page.share-img}}" alt="{{ page.landing-subtitle }}" />
                         <p>{{ content }}</p>
                         <ul class="actions">
                             <li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn}}</a><div id="error-message6"></div></li>
@@ -87,35 +70,30 @@
             </section>
             
         </section>
-            
-        <section class="major">
-                
+
+        <section id="one" style="background-color: #3A86FF;">
             <div class="inner">
                 <header class="major">
-                    <h1>Next <font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode</h1>
+                    <h2>Previous Episodes</h2>
                 </header>
-        
-        <!-- Content -->
-        <div class="row">
-            <div class="4u 12u$(medium)">
-                <h3>Date</h3>
-                <p>18 February</p>
+                <div class="row">
+                    <div class="6u 12u$(small)">
+                        <h3>Episode 2: Diversity & Inclusion</h3>
+                        <a href="https://www.svenmalvik.com/azure-apim-at-norway/">
+                            <img src="https://cdn.svenmalvik.com/images/devreal-di-cover4.jpg" alt="Diversity & Inclusion Tech Conversation | DEVREAL.io">
+                            <p><b>Watch</b> Diversity & Inclusion Tech Conversation <i>on blog post</i></p>
+                        </a>                    </div>
+                    <div class="6u 12u$(small)">
+                        <h3>Episode 1: Azure API Management at Norway</h3>
+                        <a href="https://www.svenmalvik.com/azure-apim-at-norway/">
+                            <img src="https://cdn.svenmalvik.com/images/devreal-apim_yt_cover.jpg" alt="Azure API Management at Norway | DEVREAL.io">
+                            <p><b>Watch</b> Azure API Management at Norway <i>on blog post</i></p>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="4u 12u$(medium)">
-                <h3>Time</h3>
-                <p>6pm - 7:30pm (CET)</p>
-            </div>
-            <div class="4u$ 12u$(medium)">
-                <h3>Price</h3>
-                <p>FREE</p>
-            </div>
-        </div>
-
-		<ul class="actions">
-       		<li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn}}</a><div id="error-message6"></div></li>
-        </ul>
-
         </section>
+            
     </div>
 
     {% include footer.html %}

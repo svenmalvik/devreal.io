@@ -1,27 +1,25 @@
 ---
 layout: home
-title: Home
-landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 2'
-landing-subtitle: Diversity & Inclusion
-description: Diversity & Inclusion Tech Conversation
-share-img: https://cdn.svenmalvik.com/images/devreal-di-cover4.jpg
+title: AKS at Norway | DEVREAL.io
+landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 3'
+landing-subtitle: Azure Kubernetes Service (AKS) at Norway
+description: How are Norwegian organizations like Vipps, Eljkøp and NRK using Azure Kubernetes Service (AKS), and how does Microsoft support them?
+share-img: https://cdn.svenmalvik.com/images/devreal-episode-3-0.jpg
 show_tile: true
 ---
 
-How are organizations like Vipps, Microsoft and Tata Consultancy Services (TCS) establishing a diverse and inclusive workplace? What initiatives are they driving and how can we all work together to create a positive impact?
+{{ page.description }}
 
-This event is about real experiences. We want to know why this topic matters so much to employees, students and companies.
+What experiences do they have, and what do they think about the service? I wanted to know more, so I organized an event with developers that use this service and have gained great experience. In addition to that, I invited the Global Black Belt and Technical Specialist Gustav Kaleta to answer questions, but also to tell us about some cool and new features.
 
-This event is split into 2 sections. In the first section the speakers will tell about their experiences. In the second section we’ll have a real conversation where we will get a lot of valuable insights.
+This event is split into 3 sections. In the first section the speakers will briefly tell about their experiences with AKS and insights that are most valuable to them. In the second section, Gustav Kaleta from Microsoft will tell about how they help and support us developers. In the third section we will have a short tech conversation where we will discuss topics and answer questions coming from the audience and the moderator.
 
-Thanks so much to the speakers for participating. It really means a lot to many that want to know more about the topic. I also want to send a special thanks to Ellie King who will moderate this event.
+Thanks so much to the speakers for participating. It really means a lot to many that want to know more about AKS. I also want to send a special thanks to Gustav Kaleta from Microsoft who will help us to get the most out of this event.
 
-This episodes guests are from well-known companies. In addition we have a student with us which will tell about what she expects from life.
+This episodes guests are from well-known companies:
 
-- [Ellie King (Diversity & Inclusion Advocate)](https://www.linkedin.com/in/ellie-king-62842777/)
-- [Alex Warris (Male Engagement Strategist)](https://www.linkedin.com/in/alexwarris/)
-- [Sibin Philip (TCS/Vipps)](https://www.linkedin.com/in/sibin-philip-8514b3b6/)
-- [Aneesh MN (TCS/Vipps)](https://www.linkedin.com/in/aneesh-mn-a2877750/)
-- [Sherry List (Microsoft)](https://www.linkedin.com/in/sherrylist/)
-- [Helena Løvdal Bjørbekk (NTNU)](https://www.linkedin.com/in/helena-l%C3%B8vdal-bj%C3%B8rbekk-1a1559134/)
-- [Jonah Andersson (Forefront Consulting)](https://www.linkedin.com/in/jonahandersson/)
+- [Evgeny Borzenin (Vipps)](https://www.linkedin.com/in/evgeny-borzenin-8b13a4/)
+- [Håvard Moen (NRK)](https://www.linkedin.com/in/h%C3%A5vard-moen-26749612b/)
+- [Fredrik Klingenberg (Elkjøp)](https://www.linkedin.com/in/aneesh-mn-a2877750/)
+- [Henry Hagnäs (Elkjøp)](https://www.linkedin.com/in/hagnas/)
+- [Gustav Kaleta (Microsoft Global Black Belt)](https://www.linkedin.com/in/gustav-kaleta-7a18661a/)
