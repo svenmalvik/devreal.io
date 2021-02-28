@@ -20,6 +20,6 @@ This episodes guests are from well-known companies:
 
 - [Evgeny Borzenin (Vipps)](https://www.linkedin.com/in/evgeny-borzenin-8b13a4/)
 - [Håvard Moen (NRK)](https://www.linkedin.com/in/h%C3%A5vard-moen-26749612b/)
-- [Fredrik Klingenberg (Elkjøp)](https://www.linkedin.com/in/aneesh-mn-a2877750/)
+- [Fredrik Klingenberg (Elkjøp)](https://www.linkedin.com/in/fredrikklingenberg/)
 - [Henry Hagnäs (Elkjøp)](https://www.linkedin.com/in/hagnas/)
 - [Gustav Kaleta (Microsoft Global Black Belt)](https://www.linkedin.com/in/gustav-kaleta-7a18661a/)
