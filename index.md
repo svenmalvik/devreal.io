@@ -3,7 +3,7 @@ layout: home
 title: AKS at Norway - DEVREAL.io
 landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 3'
 landing-subtitle: Azure Kubernetes Service (AKS) at Norway | Register
-description: How are Norwegian organizations like Vipps, Eljkøp and NRK using Azure Kubernetes Service (AKS), and how does Microsoft support them?
+description: How are Norwegian organizations like Vipps, Elkjøp and NRK using Azure Kubernetes Service (AKS), and how does Microsoft support them?
 share-img: https://cdn.svenmalvik.com/images/devreal-episode-3-1.jpg
 show_tile: true
 ---
