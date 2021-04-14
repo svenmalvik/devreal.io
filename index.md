@@ -1,25 +1,24 @@
 ---
 layout: home
 title: AKS at Norway - DEVREAL.io
-landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 3'
-landing-subtitle: Azure Kubernetes Service (AKS) at Norway
-description: How are Norwegian organizations like Vipps, Elkjøp and NRK using Azure Kubernetes Service (AKS), and how does Microsoft support them?
-share-img: https://cdn.svenmalvik.com/images/devreal-episode-3-1.jpg
+landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 4'
+landing-subtitle: Azure in a Nutshell
+description: Cloud skills for developers, engineers and IT business for increased career opportunities.
+share-img: https://cdn.svenmalvik.com/images/devreal-azure-in-a-nutshell.jpg
 show_tile: true
 ---
 
 {{ page.description }}
 
-What experiences do they have, and what do they think about the service? I wanted to know more, so I organized an event with developers that use this service and have gained great experience. In addition to that, I invited the Global Black Belt and Technical Specialist Gustav Kaleta to answer questions, but also to tell us about some cool and new features.
+Cloud skills are getting increasingly important among developers, engineers but also among people working on the business side of IT projects. As more Azure data centers are coming to the Nordics and more IT projects include Azure services, more IT professionals that understand Azure are needed. Being Azure-ready and having passed Azure certifications will increase your career opportunities dramatically. This DEVREAL.io episode will lead you on a path to taking your first Azure Certification. No matter if you are already using Azure, you will benefit from learning the full picture of Azure on a high level. This presentation will teach you all you need to know.
 
-This event is split into 3 sections. In the first section the speakers will briefly tell about their experiences with AKS and insights that are most valuable to them. In the second section, Gustav Kaleta from Microsoft will tell about how they help and support us developers. In the third section we will have a short tech conversation where we will discuss topics and answer questions coming from the audience and the moderator.
+This event is split into 2 sections. In the first section the speakers will present everything important for gaining a great Azure understanding. In the second section, we will have a short conversation where we will discuss topics and answer questions coming from the audience and the moderator.
 
-Thanks so much to the speakers for participating. It really means a lot to many that want to know more about AKS. I also want to send a special thanks to Gustav Kaleta from Microsoft who will help us to get the most out of this event.
+Thanks so much to the speakers for participating. It really means a lot to many that want to learn Azure.
 
-This episodes guests are from well-known companies:
+This episodes guests are all real experts on Azure:
 
-- [Evgeny Borzenin (Vipps)](https://www.linkedin.com/in/evgeny-borzenin-8b13a4/)
-- [Håvard Moen (NRK)](https://www.linkedin.com/in/h%C3%A5vard-moen-26749612b/)
-- [Fredrik Klingenberg (Elkjøp)](https://www.linkedin.com/in/fredrikklingenberg/)
-- [Henry Hagnäs (Elkjøp)](https://www.linkedin.com/in/hagnas/)
-- [Gustav Kaleta (Microsoft Global Black Belt)](https://www.linkedin.com/in/gustav-kaleta-7a18661a/)
+- [Johan Åhlén (Azure MVP)](https://www.linkedin.com/in/jahlen/)
+- [Michael Jonsson (Azure MVP)](https://www.linkedin.com/in/michael-jonsson/)
+- [Martin Ehrnst (Azure MVP)](https://www.linkedin.com/in/martinehrnst/)
+- [Chris Reddington (Microsoft)](https://www.linkedin.com/in/chrisreddington/)
