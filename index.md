@@ -3,7 +3,7 @@ layout: home
 title: AKS at Norway - DEVREAL.io
 landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 4'
 landing-subtitle: Azure in a Nutshell
-description: Cloud skills for developers, engineers and IT business for increased career opportunities with Microsoft and Azure MVPs.
+description: Cloud skills for developers, engineers and IT business for increased career opportunities - together with Microsoft and Azure MVPs.
 share-img: https://cdn.svenmalvik.com/images/devreal-azure-in-a-nutshell.jpg
 show_tile: true
 ---
