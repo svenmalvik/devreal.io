@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1 style="line-height: 1.2em;">{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="font-size: 1.2em; font-weight: 900;">{{ page.landing-subtitle }}</p>
+                <p>11 Mai, 18:00 - 19:30 CET</p>
+            </div>
+            <div class="content">
+                <p style="font-size: 1.2em;">{{ page.description }}</p>
+                
+                <ul class="actions">
+                    <!-- <li><img src="https://cdn.svenmalvik.com/images/Microsoft-logo_rgb_c-wht.png" alt="Microsoft Logo" width="500"></li> -->
+                    <li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn}}</a><div id="error-message6"></div></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <section id="two" class="spotlights">
+
+            <section>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h2>{{ page.landing-subtitle }}</h2>
+                        </header>
+                        <img src="{{page.share-img}}" alt="{{ page.landing-subtitle }}" />
+                        <p>{{ content }}</p>
+                        <ul class="actions">
+                            <li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn}}</a><div id="error-message6"></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h2>I'M SVEN, YOUR HOST</h2>
+                        </header>
+                        <p>
+                            I'm a Microsoft Azure MVP working in Vipps. Vipps is the number one payments service in Norway, and one of the 
+                            most successful digital wallet in the world as almost the entire population of Norway is using Vipps. 
+                            <a href="https://www.svenmalvik.com/aboutme">More about me</a>.
+                        </p>
+                        <ul class="actions">
+                            <li><a class="button next" id="order6" href="{{site.form-link}}">{{ site.reserve_btn}}</a><div id="error-message6"></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+
+        <section id="one" style="background-color: #3A86FF;">
+            <div class="inner">
+                <header class="major">
+                    <h2>Previous Episodes</h2>
+                </header>
+                <div class="row">
+                    <div class="6u 12u$(small)">
+                        <h3>#3. Azure Kubernetes Service (AKS) at Norway</h3>
+                        <a href="https://youtu.be/-UQmGM4r-rQ">
+                            <img src="https://cdn.svenmalvik.com/images/devreal-episode-3-1.jpg" alt="Azure Kubernetes Service (AKS) at Norway | DEVREAL.io">
+                            <p><b>Watch</b> Azure Kubernetes Service (AKS) at Norway</i></p>
+                        </a>
+                    </div>
+                    <div class="6u 12u$(small)">
+                        <h3>#2. Diversity & Inclusion</h3>
+                        <a href="https://www.svenmalvik.com/devreal-diversity-inclusion/">
+                            <img src="https://cdn.svenmalvik.com/images/devreal-di-cover4.jpg" alt="Diversity & Inclusion Tech Conversation | DEVREAL.io">
+                            <p><b>Watch</b> Diversity & Inclusion Tech Conversation</i></p>
+                        </a>                    </div>
+                </div>
+                <div class="row">
+                    <div class="6u 12u$(small)">                
+                    </div>
+                    <div class="6u 12u$(small)">
+                        <h3>#1. Azure API Management at Norway</h3>
+                        <a href="https://www.svenmalvik.com/azure-apim-at-norway/">
+                            <img src="https://cdn.svenmalvik.com/images/devreal-apim_yt_cover.jpg" alt="Azure API Management at Norway | DEVREAL.io">
+                            <p><b>Watch</b> Azure API Management at Norway</i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+    </div>
+
+    {% include footer.html %}
+
+    <!-- <script>
+        var PUBLISHABLE_KEY = "";
+        var DOMAIN = window.location.origin;
+        var PRICE_ID = "";
+
+  
+        var stripe = Stripe(PUBLISHABLE_KEY);
+  
+        for (i = 1; i <= 7; i++) {
+            var handleResult = function(result) {
+            if (result.error) {
+                var displayError = document.getElementById("error-message" + i);
+                displayError.textContent = result.error.message;
+            }
+            };
+            var order = document.getElementById("order" + i);
+            order.addEventListener("click", function() {
+            stripe
+                .redirectToCheckout({
+                mode: 'payment',
+                lineItems: [{ price: PRICE_ID, quantity: 1 }],
+                successUrl: DOMAIN + "/success.html?session_id={CHECKOUT_SESSION_ID}",
+                cancelUrl: DOMAIN + "/canceled.html"
+                })
+                .then(handleResult);
+            });
+        }
+      </script> -->
+</body>
+
+</html>
+
+
+
