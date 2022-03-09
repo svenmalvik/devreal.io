@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Azure in a Nutshell - DEVREAL.io
-landing-title: '<font style="color:#eae0d5;">DEV</font><font style="color:#C6AC8F;">REAL</font> Episode 4'
-landing-subtitle: Azure in a Nutshell
+landing-title: 'AKS: Strategies on upgrading mission critical environments'
+landing-subtitle: AKS
 description: Cloud skills for developers, engineers and IT business for increased career opportunities - together with Microsoft and Azure MVPs.
 share-img: https://cdn.svenmalvik.com/images/devreal-azure-in-a-nutshell.jpg
 show_tile: true
